@@ -17,4 +17,10 @@ body {
   scrollbar-color: rgb(217, 232, 234);
   scrollbar-width: thin;
 }
+
+@media screen and (max-width: 1166) and (min-width: 1024) {
+.stats-title{
+  display: none;
+}
+}
 }

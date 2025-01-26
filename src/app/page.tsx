@@ -1,9 +1,9 @@
 import { syllabusProgressBar } from "../data";
 import Chart from "@/components/Chart";
 import ProgressBar from "@/components/ProgressBar";
-import ChartPie from "@/components/PieChart";
 import SkillHyperText from "@/components/SkillHyperText";
 import Statistics from "@/components/Statistics";
+import QuestionAnalysis from "@/components/QuestionAnalysis";
 
 export default function Home() {
   return (
@@ -39,21 +39,7 @@ export default function Home() {
             </div>
 
             {/* Question Analysis */}
-            <div className="rounded-md border border-gray-200 py-6 px-6 md:px-8 lg:px-10">
-              <div>
-                <div className="font-bold flex items-center justify-between pb-4">
-                  <p className="text-lg">Question Analysis</p>
-                  <p className="text-blue-500">12/15</p>
-                </div>
-                <p className="text-sm lg:text-base text-gray-800 mb-4">
-                  <span className="font-bold text-gray-500">
-                    You scored 12 questions correct out of 15.
-                  </span>{" "}
-                  However, it still needs some improvements.
-                </p>
-                <ChartPie />
-              </div>
-            </div>
+           <QuestionAnalysis />
           </div>
         </div>
       </div>

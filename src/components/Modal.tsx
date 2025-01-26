@@ -37,10 +37,7 @@ function Modal() {
     };
     globalUserInput(convertedInputsToNumber);
     reset();
-
-    if (!data) {
-      closeModal();
-    }
+    closeModal();
   };
 
   function onCloseModalClearLeftInputs() {

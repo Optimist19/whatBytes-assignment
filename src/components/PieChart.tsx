@@ -26,7 +26,6 @@ export default function ChartPie() {
         </Pie>
       </PieChart>
 
-      {/* Center 🎯 dynamically */}
       <div className="absolute inset-0 flex items-center justify-center text-xl md:text-2xl lg:text-4xl">
         🎯
       </div>

@@ -8,22 +8,22 @@ function Statistics() {
 
   return (
     <div className="flex justify-center">
-      <div className="pl-8 flex items-center gap-3">
+      <div className=" flex items-center gap-3">
         <div className="w-[50px] h-[50px] bg-gray-200 flex justify-center items-center rounded-full hidden md:flex">
           <p>🏆</p>
         </div>
         <div className="grid gap-1 pr-4 py-3">
           <p className="font-bold text-[16px]">{rate}</p>
-          <p className="text-[10px] text-gray-400">YOUR RANK</p>
+          <p className="text-[10px] text-gray-400 stats-title">YOUR RANK</p>
         </div>
       </div>
-      <div className="pl-4 flex items-center md:items-start gap-3 border-r-2 border-l-2">
+      <div className="pl-3 flex items-center gap-3 border-r-2 border-l-2">
         <div className="w-[50px] h-[50px] bg-gray-200 flex justify-center items-center rounded-full hidden md:flex">
           <p>📋</p>
         </div>
         <div className="grid gap-1 pr-4 py-3">
           <p className="font-bold text-[16px]">{percentile}%</p>
-          <p className="text-[10px] text-gray-400">PERCENTILE</p>
+          <p className="text-[10px] text-gray-400 stats-title">PERCENTILE</p>
         </div>
       </div>
       <div>
@@ -33,7 +33,7 @@ function Statistics() {
           </div>
           <div className="grid gap-1 pr-4 py-3">
             <p className="font-bold text-[16px]">{score}/15</p>
-            <p className="text-[10px] text-gray-400">CORRECT ANSWERS</p>
+            <p className="text-[10px] text-gray-400 stats-title">CORRECT ANSWERS</p>
           </div>
         </div>
       </div>
