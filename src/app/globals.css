@@ -18,7 +18,7 @@ body {
     scrollbar-width: thin;
   }
 
-  @media screen and (max-width: 1166) and (min-width: 1024) {
+  @media screen and (max-width: 1166px) and (min-width: 1024px) {
     .stats-title {
       display: none;
     }
