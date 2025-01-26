@@ -6,7 +6,7 @@ import { useGlobalState } from '@/store/Store';
 
 function QuestionAnalysis() {
 
-	const { score } = useGlobalState();
+	const { rate, percentile, score } = useGlobalState();
 
   return (
 	<div className="rounded-md border border-gray-200 py-6 px-6 md:px-8 lg:px-10">
@@ -17,7 +17,7 @@ function QuestionAnalysis() {
 	  </div>
 	  <p className="text-sm lg:text-base text-gray-800 mb-4">
 		<span className="font-bold text-gray-500">
-		  You scored 12 questions correct out of 15.
+		  You scored {score} {score > 1 ? "questions" : "question"} correct out of 15.
 		</span>{" "}
 		However, it still needs some improvements.
 	  </p>
