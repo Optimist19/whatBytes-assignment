@@ -6,7 +6,7 @@ import { useGlobalState } from '@/store/Store';
 
 function QuestionAnalysis() {
 
-	const { rate, percentile, score } = useGlobalState();
+	const { score } = useGlobalState();
 
   return (
 	<div className="rounded-md border border-gray-200 py-6 px-6 md:px-8 lg:px-10">
