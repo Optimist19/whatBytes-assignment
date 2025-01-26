@@ -17,7 +17,7 @@ function Statistics() {
           <p className="text-[10px] text-gray-400">YOUR RANK</p>
         </div>
       </div>
-      <div className="pl-4 flex items-center gap-3 border-r-2 border-l-2">
+      <div className="pl-4 flex items-center md:items-start gap-3 border-r-2 border-l-2">
         <div className="w-[50px] h-[50px] bg-gray-200 flex justify-center items-center rounded-full hidden md:flex">
           <p>📋</p>
         </div>
