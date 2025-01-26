@@ -13,14 +13,14 @@ body {
     --radius: 0.5rem;
   }
 
-.scroll-css{
-  scrollbar-color: rgb(217, 232, 234);
-  scrollbar-width: thin;
-}
+  .scroll-css {
+    scrollbar-color: rgb(217, 232, 234);
+    scrollbar-width: thin;
+  }
 
-@media screen and (max-width: 1166) and (min-width: 1024) {
-.stats-title{
-  display: none;
-}
-}
+  @media screen and (max-width: 1166) and (min-width: 1024) {
+    .stats-title {
+      display: none;
+    }
+  }
 }
